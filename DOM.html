@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" onsubmit="return validation()">
+    username : <input type="text" value="" size="20" id="username" aria-required=""> <span id="un"></span>
+    <br>
+    password : <input type="password" value="" name="pass" id="password"><span id="ps" required></span>
+    <br>
+    <input type="submit" value="submit" >
+    </form>
+
+    
+</body>
+
+<script>
+    function validation()
+    {
+        var us=document.getElementById("username").value;
+        var pass=document.getElementById("password").value;
+
+        if(us=="")
+        {
+            document.getElementById("un").innerHTML="*please enter username :";
+            return false;
+        }
+        else if(pass="")
+        {
+            document.getElementById("ps").innerHTML="*please enter password";
+            return false;
+        }
+        else{
+            confirm("DONE!!!!!!!.....");
+            return true;
+        }
+    }
+</script>
+</html>

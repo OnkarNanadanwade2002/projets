@@ -1,0 +1,64 @@
+.calculator
+{
+    text-align: right;
+    font-size:xx-large;
+    color: black;
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.20)0px 10px 20px, rgba(0, 0, 0, 0.25)0px 6px 6px;
+}
+.calculator input
+{
+    text-align: right;
+    font-size:xx-large;
+    color: black;
+}
+.calculator tr
+{
+    margin: 10px;
+}
+.display-box
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dcdbe1;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+#btn
+{
+    background-color: #fb0066;
+}
+input[type=button]
+{
+    font-family: sans-serif;
+    background-color: #64278f;
+    color: black;
+    border: 2px solid yellow;
+    width: 100%;
+    border-radius: 8px;
+    height: 70%;
+    outline: none;
+    text-align: center;
+    color: pink;
+    margin: 10px;
+
+}
+input:active[typt=button]
+{
+    background: #e5e5e5;
+    -webkit-box-shadow:inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow : inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+     
+}
+
+
+
+
